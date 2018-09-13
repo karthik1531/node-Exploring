@@ -46,5 +46,7 @@ Callback- This is function which eexute on each element of the array. It has fou
 Intial Value-Value to use as the first argument to the first call of the callback. If no initial value is supplied, the first element in the array will be used. Calling reduce function on an empty array without an initial value is an error.
 Return Value- The value that results from the reduction.
 
-
+Description-
+-The intial value in accumulator will be equal to intial value if provided,if nointial vslue provided it will be equal to first value in the array.
+-If the intial value is provided and array is empty, the solo value will be returned without calling callback.
 
